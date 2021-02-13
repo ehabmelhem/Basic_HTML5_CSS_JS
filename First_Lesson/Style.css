@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+button,
+input,
+h1,
+p,
+ul,
+label,
+span,
+strong {
+  margin-left: 20vw;
+}
+td {
+  border: 1px solid black;
+}
+tr {
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
